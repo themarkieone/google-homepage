@@ -12,12 +12,28 @@ input[type="text"] {
 	padding: 5px;
 }
 
-.first_list {
+.topright_bar {
 	text-align: right;
 	margin: 0;
 	list-style-type: none;
 	padding: 0;
 	overflow: hidden;
+}
+
+.bottomleft_bar {
+	text-align: left;
+	bottom: 0;
+	position: fixed;
+	padding: 0;
+}
+
+.bottomright_bar {
+	text-align: right;
+	bottom: 0;
+	right: 0;	
+	position: fixed;
+	padding: 0;
+
 }
 
 li {
@@ -37,9 +53,3 @@ li a:hover {
 	text-decoration: underline;
 }
 
-.second_list {
-	text-align: left;
-	bottom: 0;
-	position: fixed;
-	
-}
